@@ -7,19 +7,32 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://icons.coreui.io/scss/colors/icons.min.79887f9482b1270670efb6c00c60ca04120b5fa90c303ff1a67303d0cc9f76ae.css">
+  <link rel="stylesheet" href="https://icons.coreui.io/css/all.min.04afe194583853dbc897278f1cd35603f76521c9272735b5c39cc8a10f3e6adf.css">
 
-  <title>Portfolio-Home</title>
+  <!--- Custom CSS --->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <title>About-Portfolio</title>
 </head>
 
 <body>
-    <!--- navbar start --->
 
+<div class="container">
+  <div class="row">
 
-      <nav class="navbar navbar-expand-md navbar-light bg-warning mt-3 ">
+    <!--- Navbar Start --->
 
-        <a class="navbar-brand" href="index.html">Radhemohan Yadav</a>
+    <div class="col-md-12 mt-3">
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white fixed-top">
+
+        <img src="assets/images/demo_coder.png" style="width:40px;height:40px;">
+        &nbsp;
+        <a class="navbar-brand" href="index.html" >Radhemohan Yadav</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -29,9 +42,8 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-
-            <li class="nav-item active">
+          <ul class="navbar-nav ml-auto custom-nav">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
 
@@ -40,58 +52,94 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
+              <a class="nav-link" href="skills.html">Skills</a>
             </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Projects
-              </a>
-
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="project1.html">Project 1</a>
-                <a class="dropdown-item" href="project2.html">Project 2</a>
-                <a class="dropdown-item" href="project3.html">Project 3</a>
-                <!--- <div class="dropdown-divider"></div> --->
-
-              </div>
-            </li>
-
 
             <li class="nav-item">
-              <a class="nav-link " href="contact.html" aria-disabled="true">Contact</a>
+              <a class="nav-link" href="project.html">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="contact.html">Contact</a>
             </li>
 
 
           </ul>
 
-          <!--- <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 
-          </form> --->
         </div>
       </nav>
 
+    </div>
 
+    <!--- Navbar End --->
 
-    <!--- navbar end --->
-    <div class="container-md">
+    <div class="col-md-12 mt-3">
+      <p> Middle Section </p>
+      <p> Middle Section </p>
+      <p> Middle Section </p>
+      <p> Middle Section </p>
+    </div>
+
+  </div>
+</div>
+
+<!--- Footer Bar Start --->
+
+<footer class="bg-dark text-white footer-links text-lg-start mt-3 pt-3">
+  <div class="footer-top">
+    <div class="container">
       <div class="row">
+
+        <div class="col-md-3 wow  fadeInUp">
+          <h3>Links</h3>
+          <p><a href="index.html">Home</a></p>
+          <p><a href="about.html">About Me</a></p>
+          <p><a href="skills.html">Skills</a></p>
+          <p><a href="project.html">Projects</a></p>
+          <p><a href="contact.html">Contact</a></p>
+
+        </div>
+
+        <div class="col-md-5 footer-about wow fadeInUp">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Follow</h3>
+              <p> <i class="fab fa-linkedin-in"></i> &nbsp; <a href="https://www.linkedin.com/" target="_blank">Linkedin</a></p>
+              <p> <i class="fab fa-twitter"></i> &nbsp; <a href="https://twitter.com/?lang=en" target="_blank">Twitter</a></p>
+              <p> <i class="fab fa-facebook-f"></i> &nbsp;&nbsp; <a href="https://www.facebook.com/" target="_blank"> Facebook</a></p>
+              <p> <i class="fab fa-instagram"></i> &nbsp; <a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
+            </div>
+            <div class="col-md-6">
+              <h3>Technical</h3>
+              <p> <i class="fab fa-github"></i> &nbsp; <a href="https://github.com/" target="_blank">Github</a></p>
+              <p> <i class="fab fa-hackerrank"></i> &nbsp; <a href="https://www.hackerrank.com/" target="_blank">Hackerrank</a></p>
+              <p> <i class="cib-hackerearth"></i> &nbsp; <a href="https://www.hackerearth.com/" target="_blank">Hackerearth</a></p>
+              <p> <i class="fab fa-kaggle"></i> &nbsp;&nbsp; <a href="https://www.kaggle.com/" target="_blank">Kaggle</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 offset-md-1 footer-contact wow fadeInDown">
+          <h3>Contact</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Kalyan, Maharashtra, India</p>
+          <p><i class="fas fa-phone"></i> Phone: (+91) xxx xxx xxxx</p>
+          <p><i class="fas fa-envelope"></i> Email: <a href="mailto:radhemohanyadav6@gmail.com">mailme@gmail.com</a></p>
+          <p><i class="fab fa-skype"></i> Skype: you_online</p>
+        </div>
+
       </div>
     </div>
-    <!--- Footer bar start --->
-        <footer class="bg-light text-center text-lg-start mt-3">
-          <!-- Copyright -->
-          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2021 Copyright:
-            <a class="text-dark" href="https://mdbootstrap.com/">Radhemohan Yadav</a>
-          </div>
-          <!-- Copyright -->
-        </footer>
+  </div>
 
-    <!--- Footer bar end --->
+  <div class="text-center p-3">
+    © 2021 Copyright:
+    <a  href="https://github.com/radhemky" target="_blank">Radhemohan Yadav</a>. All Rights are Reserved
+  </div>
+
+</footer>
+
+<!--- Footer Bar End --->
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -99,28 +147,3 @@
 
 </body>
 </html>
-
-<footer class="bg-light text-center text-lg-start mt-3" >
-
-  <div class="col-md-4 mt-3">
-
-    <div class="card text-white bg-dark mb-3" style="max-width: ">
-      <div class="card-header">Header</div>
-      <div class="card-body">
-        <h5 class="card-title">Dark card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- Copyright -->
-
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2021 Copyright:
-    <a class="text-dark" href="https://mdbootstrap.com/">Radhemohan Yadav</a>
-  </div>
-
-  <!-- Copyright -->
-
-</footer>
